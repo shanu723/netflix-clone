@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0 ;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    width: 100px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.lan-btn{
+    padding: 2px 6px;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.signin{
+    border-radius: 25px;
+    color:#757575 ;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.lan-btn img{
+    width: 10px;
+    margin-left: 25px;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left:35%;
+    text-align: center;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 600px;
+}
+
+.started{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    height:200px
+    
+}
+.started p{
+    margin-top: 70px;
+    font-size: 18px;
+    margin-right: 10%;
+}
+.email{
+    margin-top: 40px;    
+}
+
+
+.email input{
+    border: 1px solid #fff;
+    outline: 0;
+    border-radius: 40px;
+    padding: 15px 70px;
+    background: transparent;
+    font-size: 20px;
+    
+}
+.email button{
+    border: 0;
+    background: #db0001;
+    padding: 20px 20px;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+h2{
+   margin-top: 70px;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 35px;
+}
+.trending{
+    margin: 0;
+    padding: 0;
+}
+.container-1{
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    max-width: 80%;
+}
+
+.netflix{
+    margin-top: 100px;
+}
+.container-2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    margin-left: 10%;
+    max-width: 80%;
+}
+.join{
+    margin-top: 100px;
+}
+.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+.box2{
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 30px 40px;
+    font-weight: bolder;
+    color:#fff;
+    background-color: #1F1F1F;
+    font-size: 18px;
+}
+.fq{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.box3{
+    width:80%;
+    border: 1px solid #464444;
+    padding: 20px 20px;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #1d1b1b;
+}
+.getstarted{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+}
+.get{
+    padding: 10px 10px;
+    border: 1px solid #db0001;
+    background-color: #db0001;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+.getstarted h3{
+    margin-top: 15px;
+}
+ p{
+    margin-top: 10px;
+    margin-left: 10%;
+}
+p a{
+    color: #757575;
+}
+.links{
+    background-color: none;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+   margin-left: 10%;
+   margin-top: 25px;
+}
+.links a{
+    color: #757575;
+    font-weight: 500;
+}
+.footer{
+    margin-top: 15px;
+
+}
+.last{
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 16px;
+}
+.footer p{
+    padding: 10px;
+}
